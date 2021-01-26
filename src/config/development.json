@@ -1,0 +1,13 @@
+{
+    "node": {
+        "port": 9000,
+        "logLocation": {
+            "uncaughtException": "/logs/uncaughtException.log"
+        }
+    },
+    "database": {
+        "url": "mongodb://127.0.0.1",
+        "name": "setmaker",
+        "port": "27017"
+    }
+}

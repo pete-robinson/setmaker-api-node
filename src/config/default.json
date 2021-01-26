@@ -1,0 +1,13 @@
+{
+    "node": {
+        "port": 9000,
+        "logLocation": {
+            "uncaughtException": "/logs/uncaughtException.log"
+        }
+    },
+    "database": {
+        "url": "",
+        "name": "",
+        "port": ""
+    }
+}

@@ -9,10 +9,6 @@ export default winston.createLogger({
             colorize: true,
             prettyPrint: true
         }),
-        new winston.transports.MongoDB({
-            db: 'mongodb://localhost/vidly',
-            level: 'warn'
-        }),
         new winston.transports.File({
             filename: `${appRoot}/logs/app.log`,
             level: 'warn'
